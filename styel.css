@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Poppins:wght@300&display=swap");
+@import "ut.css";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary: #3dcfd3;
+  --dark: #161616;
+  --pure: #ffffff;
+  --ternary: #898989;
+  --light: #f2f2f2;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: var(--dark);
+  height: 90vh;
+}
+.container {
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.aref a {
+  color: var(--pure);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+
+  transition: all 0.3s;
+}
+.aref a:hover {
+  color: var(--primary);
+  border-bottom: 1px solid var(--light);
+}
+header nav .left a:hover {
+  color: var(--primary);
+  text-decoration: none;
+}
+header nav {
+  padding: 2rem 0;
+}
+.branding {
+  margin-right: 3rem;
+}
+
+.btn {
+  padding: 0.8rem 3rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 2px solid transparent;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--pure);
+}
+.btn-primary:hover {
+  background-color: transparent;
+  border-color: var(--primary);
+  columns: var(--primary);
+}
+.hero .left {
+  color: var(--pure);
+  top: 4rem;
+  position: relative;
+  left: 1rem;
+}
+.left h6 {
+  font-size: 2rem;
+}
+.left h1 {
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+}
+.left h1 span {
+  color: var(--primary);
+}
+#top {
+  margin-top: 1rem;
+  border-radius: 1rem;
+}
